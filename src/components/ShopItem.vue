@@ -1,7 +1,7 @@
 <template>
   <div class="item">
     <img :src="product.img" :alt="product.title" />
-    <router-link :to="/shop/ + product.id" class="link">{{
+    <router-link :to="'/vue2-store/shop/' + product.id" class="link">{{
       product.title
     }}</router-link>
   </div>

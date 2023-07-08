@@ -30,11 +30,11 @@ export default {
       links: [
         {
           title: "Home",
-          url: "/",
+          url: "/vue2-store/",
         },
         {
           title: "Shop",
-          url: "/shop",
+          url: "/vue2-store/shop",
         },
       ],
     };

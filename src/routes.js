@@ -16,22 +16,22 @@ export default new Router({
   mode: "history",
   routes: [
     {
-      path: "/",
+      path: "/vue2-store/",
       name: "home",
       component: Home,
     },
     {
-      path: "/shop",
+      path: "/vue2-store/shop",
       name: "shop",
       component: Shop,
     },
     {
-      path: "/shop/:id",
+      path: "/vue2-store/shop/:id",
       name: "product",
       component: Product,
     },
     {
-      path: "*",
+      path: "/vue2-store/*",
       name: "notFound",
       component: NotFound,
     },
